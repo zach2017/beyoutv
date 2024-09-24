@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeYou Fashion TV Network</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: "background.gif";
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav ul li {
+            margin-left: 20px;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .banner {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('backgrounddark.gif');
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .banner button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .content-section {
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .content-section h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        .content-section .grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .content-section .grid-item {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .content-section .grid-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .footer {
+            padding: 20px;
+            background: "rgba(0, 0, 0, 0.8);";
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="nav">
+        <div class="logo">
+            BeYou Fashion TV Network</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Fashion News</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <h1>BeYou Fashion</h1>
+        <p>Discover the latest trends in urban and fun fashion</p>
+        <button>Watch Now</button>
+    </div>
+
+    <div class="content-section">
+        <h2>Trending Shows</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x400" alt="Show 1">
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x400" alt="Show 2">
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/300x400" alt="Show 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Fashion TV Network
+    </div>
+</body>
+</html>
